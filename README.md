@@ -24,10 +24,11 @@ Bash
 -ตัวแปร ``updatedCustomers`` ทำหน้าที่รับค่าที่ Parse มาจาก CSV เพื่อเตรียมอัปเดตเข้าสู่ระบบ
 
 2.AdminPanel
+
 แสดงเฉพาะลูกค้าที่มีสถานะออนไลน์เท่านั้น ``customers.filter(c => c.status === 'online')``
 
 📊 Data Mapping (Excel vs App Variable)
-เพื่อให้ข้อมูลในระบบตรงกับฟอร์แมต Excel/CSV ที่ได้รับมา ให้ใช้การอัปเดตตัวแปรดังนี้:
+  เพื่อให้ข้อมูลในระบบตรงกับฟอร์แมต Excel/CSV ที่ได้รับมา ให้ใช้การอัปเดตตัวแปรดังนี้:
 1 Alias ``customer``
 2 Device Name ``customerName / olt.name``
 3 Frame,frame
