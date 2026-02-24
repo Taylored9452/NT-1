@@ -33,7 +33,7 @@ Bash
 
 2 Device Name ``customerName / olt.name``
 
-3 Frame,frame
+3 Frame ``frame``
 
 4 Slot  ``slot``
 
