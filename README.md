@@ -21,7 +21,7 @@ Bash
 
 -ตัวแปร ``updatedCustomers`` ทำหน้าที่รับค่าที่ Parse มาจาก CSV เพื่อเตรียมอัปเดตเข้าสู่ระบบ
 
-2.AdminPanel
+2.ไฟล์ AdminPanel
 
 แสดงเฉพาะลูกค้าที่มีสถานะออนไลน์เท่านั้น ``customers.filter(c => c.status === 'online')``
 
