@@ -59,7 +59,7 @@ Bash
 
 🔗 Test API Endpoints (Google Sheets CSV)
 
-คุณสามารถใช้ URL เหล่านี้ในการทดสอบฟังก์ชัน fetch ใน CSVImporter:
+ใช้ URL นี้ในการทดสอบฟังก์ชัน fetch ใน CSVImporter:
 
 API1 Date 2026-01-01 Status Online 19	https://docs.google.com/spreadsheets/d/e/2PACX-1vRVrGwYnxX7LqSBVR3v9Ov17Zo5IAOjYktgrMuaFsVgxw-ZptK4kzDe0n1vKy6PjxaX-8M3kxs9A3yP/pub?output=csv
 
