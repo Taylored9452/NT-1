@@ -1,5 +1,5 @@
 
-📑 Project Overview: CSV Customer Importer
+📑 Project Overview
 ระบบจัดการข้อมูลลูกค้าและสถานะ OLT โดยดึงข้อมูลผ่าน Google Sheets CSV API และแสดงผลผ่านหน้า Admin Panel
 
 🚀 Getting Started
