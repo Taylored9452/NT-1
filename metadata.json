@@ -1,0 +1,7 @@
+{
+  "name": "ISP Customer Search & Configuration",
+  "description": "A modular ISP management platform for searching customer technical configurations and mapping OLT locations with role-based access control.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
