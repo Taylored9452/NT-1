@@ -16,15 +16,18 @@ Bash
 
 🛠️ System Logic
 1.ไฟล์ CSVImporter
+
 -ใช้ ``fetch(url)`` เพื่อดึงข้อมูลจาก Google Sheets (CSV Output)
+
 -ใช้ ``[csvUrl, setCsvUrl]`` ในการจัดการ URL ของแหล่งข้อมูล
+
 -ตัวแปร ``updatedCustomers`` ทำหน้าที่รับค่าที่ Parse มาจาก CSV เพื่อเตรียมอัปเดตเข้าสู่ระบบ
+
 2.AdminPanel
 แสดงเฉพาะลูกค้าที่มีสถานะออนไลน์เท่านั้น ``customers.filter(c => c.status === 'online')``
 
 📊 Data Mapping (Excel vs App Variable)
 เพื่อให้ข้อมูลในระบบตรงกับฟอร์แมต Excel/CSV ที่ได้รับมา ให้ใช้การอัปเดตตัวแปรดังนี้:
-No.,Excel Field,App Variable / Logic
 1 Alias ``customer``
 2 Device Name ``customerName / olt.name``
 3 Frame,frame
