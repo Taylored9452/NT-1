@@ -8,13 +8,11 @@
 Setup: 
 ``npm install``
 
-Configuration: 
-สร้างไฟล์ .env.local และกำหนดค่า
-
 Bash
 ``npm run dev``
 
 🛠️ System Logic
+
 1.ไฟล์ CSVImporter
 
 -ใช้ ``fetch(url)`` เพื่อดึงข้อมูลจาก Google Sheets (CSV Output)
